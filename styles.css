@@ -1,0 +1,57 @@
+/* 1. FLEXBOX FOR NAVBAR (1D Layout) */
+.app-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background: #1e293b;
+    color: white;
+    padding: 15px 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+/* 2. CSS GRID FOR BENTO DASHBOARD (2D Layout) */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+/* Cấu hình Bento Box trên màn hình Desktop */
+@media (min-width: 768px) {
+    .bento-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 120px;
+    }
+
+    .widget-large {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+}
+
+.widget {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex; /* Dùng Flexbox căn giữa nội dung bên trong Component */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}

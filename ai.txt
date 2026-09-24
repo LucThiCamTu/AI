@@ -1,0 +1,13 @@
+# AI Prompt Log
+
+### Prompt 1:
+> *"Khi tôi cần một bố cục mà một phần tử con (Child) phải chiếm chính xác 2 hàng và 2 cột (span 2 rows, 2 columns) đan xen với các phần tử nhỏ khác, tôi nên chọn CSS Grid hay Flexbox? Tại sao Flexbox lại chật vật với yêu cầu này?"*
+
+### Prompt 2:
+> *"Trong Bootstrap 5, sự khác biệt giữa lớp col-sm-4 và col-md-4 là gì? Tại sao tôi nên dùng Bootstrap thay vì tự viết CSS Grid cho một phần tử đơn giản như 3 cột Bảng giá?"*
+
+### Prompt 3:
+> *"Hãy cho tôi xem một cú pháp CSS Grid đơn giản (sử dụng grid-template-areas hoặc span) để tạo một layout dạng Bento Box: có 1 hình vuông lớn bên trái chiếm 2x2, và 2 hình vuông nhỏ bên phải."*
+
+### Prompt 4:
+> *"Làm thế nào để sử dụng thuộc tính flex-wrap: wrap trong Flexbox kết hợp với thuộc tính `gap` hiện đại để thay thế cho `margin` lộn xộn trên giao diện Mobile?"*

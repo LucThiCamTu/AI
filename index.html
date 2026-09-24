@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetricsHub Dashboard</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAV: Dùng Flexbox cho bố cục 1D động (Content-first) -->
+    <nav class="app-navbar">
+        <div class="logo">MetricsHub</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">VeryLongGermanWordForDashboard</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="user-profile">Profile</div>
+    </nav>
+
+    <div class="container my-4">
+        <h2 class="mb-3">Bento Dashboard</h2>
+        <!-- DASHBOARD: Dùng CSS Grid cho bố cục 2D Bento Box (Đã làm phẳng DOM) -->
+        <div class="bento-grid mb-5">
+            <div class="widget widget-large">
+                <span>Chart A (Span 2 rows & 2 cols)</span>
+            </div>
+            <div class="widget">Chart B</div>
+            <div class="widget">Chart C</div>
+            <div class="widget">Chart D</div>
+        </div>
+
+        <h2 class="mb-3">Bảng giá Dịch vụ</h2>
+        <!-- PRICING: Dùng Bootstrap Grid 12 cột triển khai nhanh & Responsive -->
+        <div class="row g-3">
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm text-center">
+                    <div class="card-body">
+                        <h3 class="card-title">Gói Cơ bản</h3>
+                        <p class="card-text text-muted">Dành cho cá nhân trải nghiệm</p>
+                        <button class="btn btn-outline-primary w-100">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm text-center border-primary">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary">Gói Nâng cao</h3>
+                        <p class="card-text text-muted">Dành cho nhóm phát triển nhỏ</p>
+                        <button class="btn btn-primary w-100">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm text-center">
+                    <div class="card-body">
+                        <h3 class="card-title">Gói Doanh nghiệp</h3>
+                        <p class="card-text text-muted">Dành cho tổ chức quy mô lớn</p>
+                        <button class="btn btn-outline-primary w-100">Liên hệ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
